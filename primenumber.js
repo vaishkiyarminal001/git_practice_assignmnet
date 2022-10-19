@@ -1,7 +1,7 @@
 let prime=true;
 let num=13;
 
-for(let i=0; i<num-1; i++){
+for(let i=2; i<=num; i++){
     if(num%2==0){
         prime=false;
     }
